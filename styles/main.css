@@ -1,0 +1,149 @@
+@media screen and (min-width: 2550px) {
+  .header,.section__two{
+    transform: scale(1.8);
+  }
+
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+*::selection {
+  color: #fff;
+  background: #c08259;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+ul,
+li {
+  list-style: none;
+}
+.flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-col {
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.items-center {
+  align-items: center;
+}
+.py-1 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.py-2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.py-3 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.my-1 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.my-2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.my-3 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.my-4 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.relative {
+  position: relative;
+}
+
+h3 {
+  font-size: 24px;
+  margin: 0px 0px 20px 0px;
+}
+
+label {
+  margin-top: 25px;
+  margin-bottom: 7px;
+}
+input {
+  background-color: #1f1f1f;
+  border-color: #000000;
+  border-width: 0px 0px 0px 0px;
+  border-radius: 10px;
+  width: 270px;
+  height: 40px;
+  padding-left: 15px;
+  padding-right: 8px;
+}
+input::placeholder {
+  color: #909090;
+}
+
+textarea {
+  padding: 15px;
+  background-color: #1f1f1f;
+  border-color: #000000;
+  border-width: 0px 0px 0px 0px;
+  border-radius: 8px;
+  width: 565px;
+  height: 134px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+textarea::placeholder {
+  color: #909090;
+}
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  width: 100%;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: 0.7s ease-in-out;
+  border: 2px solid #c08259;
+  background: transparent;
+  color: #c08259;
+}
+button:hover {
+  color: #000000;
+  background-color: #c08259;
+  cursor: pointer;
+}
+.col-gap-2 {
+  column-gap: 1.5rem;
+}
+.mb-38px {
+  margin-bottom: 38px;
+}
+
+footer.footer {
+  padding: 35px 5px;
+}
