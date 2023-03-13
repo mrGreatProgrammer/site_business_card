@@ -4,7 +4,6 @@
     transform: scale(1.8);
   }
 }
-
 *,
 *::before,
 *::after {
@@ -13,6 +12,7 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   color: #fff;
+  scroll-behavior: smooth;
 }
 *::selection {
   color: #fff;
